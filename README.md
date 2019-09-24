@@ -7,7 +7,7 @@ To begin the render you have to copy `script.py` and `render.bat` your folder wi
 
 Now just run `render.bat` as administrator.
 
-In order to turn off the computer after rendering you need to uncomment the line by removing the word rem in render.bat
+In order to turn off the computer after rendering you need to uncomment the line by removing the word `rem` in render.bat
 
 ```bat
 rem shutdown -s -f -t 20
