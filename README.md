@@ -1,7 +1,7 @@
 # blender_batch_render
 ## [readme на русском](README_RUS.md)
 
-Tiny script to render all yours .blend files in one click.
+Tiny script to render all yours `.blend` files in one click.
 This script is useful if you have accumulated a lot of different projects that need to render. Now you can run this script at night and it will open files render them without disturbing your sleep;) **only for windows** 
 
 ### Usage
