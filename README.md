@@ -14,3 +14,6 @@ In order to turn off the computer after rendering you need to uncomment the line
 rem shutdown -s -f -t 20
 ```
 ![alt text](simple_img/example2.gif)
+### support 
+Windows 
+Blender 2.8x 
