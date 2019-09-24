@@ -9,15 +9,23 @@ To begin the render you have to copy `script.py` and `render.bat` your folder wi
 Now just run `render.bat` as administrator.
 ![alt text](simple_img/examlpe.gif)
 
-### Warning
-If you have blender installed in a different folder, change the path in `render.bat`
-
+### Settings
 In order to turn off the computer after rendering you need to uncomment the line by removing the word `rem` in render.bat
 
 ```bat
-rem shutdown -s -f -t 20
+shutdown -s -f -t 20
+```
+You can render the in background (often used for UI-less rendering) by adding the `-b` flag
+
+```bat
+ "C:\Program Files\Blender Foundation\Blender\blender.exe" %%i -P script.py -b
 ```
 ![alt text](simple_img/example2.gif)
+
+#### Warning
+* If you have blender installed in a different folder, change the path in `render.bat`
+* opengl and eevee no support render the in background
+
 ### support 
 Windows 
 Blender 2.8x 
