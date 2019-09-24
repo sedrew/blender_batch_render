@@ -6,9 +6,11 @@ This script is useful if you have accumulated a lot of different projects that n
 To begin the render you have to copy `script.py` and `render.bat` your folder with .blend files
 
 Now just run `render.bat` as administrator.
+![alt text](simple_img/examlpe.gif)
 
 In order to turn off the computer after rendering you need to uncomment the line by removing the word `rem` in render.bat
 
 ```bat
 rem shutdown -s -f -t 20
 ```
+![alt text](simple_img/example2.gif)
